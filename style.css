@@ -1,0 +1,84 @@
+ /* Estilos básicos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Navegação */
+        nav {
+            background: #333;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff6f61;
+        }
+
+        /* Banner */
+        .banner {
+            background-image: url('img/img1.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            position: relative;
+        }
+        .banner h1 {
+            font-size: 2.5em;
+            background: rgba(0, 0, 0, 0.6);
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        /* Seções */
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            color: #ff6f61;
+        }
+        section p {
+            max-width: 600px;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+
+        /* Botões e links com hover */
+        a.button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        a.button:hover {
+            background-color: #ff6f61;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+   
